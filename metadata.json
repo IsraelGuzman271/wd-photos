@@ -1,0 +1,6 @@
+{
+  "name": "wd-photos",
+  "description": "A 3-row photo grid with uniform placeholder images and titles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
