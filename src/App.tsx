@@ -17,9 +17,9 @@ const photos: PhotoItem[] = [
   },
   {
     id: 2,
-    title: 'Golden Desert Dunes',
-    category: 'Nature',
-    url: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&h=600&q=80',
+    title: 'Brian Rodríguez',
+    category: 'Athlete',
+    url: 'https://www.shutterstock.com/editorial/image-editorial/MaTfccz1M0DeY322MjQ2OTI=/brian-rodriguez-7-america-celebrates-after-scoring-440nw-17128228s.jpg',
   },
   {
     id: 3,
