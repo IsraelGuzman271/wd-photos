@@ -3,15 +3,17 @@ interface PhotoItem {
   title: string;
   category: string;
   url: string;
+  objectPosition?: string;
 }
 
 const photos: PhotoItem[] = [
   // Row 1
   {
     id: 1,
-    title: 'Mountain Sunrise',
-    category: 'Landscape',
-    url: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&h=600&q=80',
+    title: 'Player Photo',
+    category: 'Athlete',
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsKgvjomKY-cSFUXbL-aOwvKM9vdIyup3UU7jR1hY-zQ&s=10',
+    objectPosition: '65% center',
   },
   {
     id: 2,
@@ -95,6 +97,7 @@ export default function App() {
                 <img
                   src={photo.url}
                   alt={photo.title}
+                  style={{ objectPosition: photo.objectPosition || 'center' }}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
