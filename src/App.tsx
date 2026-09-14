@@ -44,7 +44,7 @@ const photos: PhotoItem[] = [
     id: 6,
     title: 'Misty Lake',
     category: 'Water',
-    url: 'https://images.unsplash.com/photo-1439853941329-a99ce0457e8a?auto=format&fit=crop&w=600&h=600&q=80',
+    url: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&h=600&q=80',
   },
   // Row 3
   {
@@ -57,7 +57,7 @@ const photos: PhotoItem[] = [
     id: 8,
     title: 'Urban Skyline',
     category: 'City',
-    url: 'https://images.unsplash.com/photo-1477959858617-67f30bc75b82?auto=format&fit=crop&w=600&h=600&q=80',
+    url: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=600&h=600&q=80',
   },
   {
     id: 9,
